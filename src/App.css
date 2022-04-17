@@ -1,0 +1,80 @@
+body {
+  background-color: #2c3e50;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  font-size: 26px;
+  margin: 20px 0;
+  color: white;
+}
+
+main {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+} */
+
+.pokemonCard {
+  color: white;
+  /* border: 10px solid transparent;
+  border-image: url("./assets/images/border-img.4120e392.png") 10; */
+  border-radius: 5px;
+  height: 380px;
+  margin: 10px 5px;
+}
+
+.pokemonCard .pokemonImg {
+  margin-top: 30px;
+  height: 150px;
+  width: 100%;
+  cursor: url("./assets/images/4705_pokeball_great.png"), pointer;
+}
+
+.pokemonName {
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.font {
+  font-family: "Bashing", Arial, sans-serif;
+}
+
+.pokemonStat {
+  margin-top: 10px;
+}
+
+.icons {
+  width: auto;
+  height: 30px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto 10px auto;
+}
+
+.form input {
+  margin-bottom: 10px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.btnClass {
+  display: flex;
+  flex-direction: column;
+}
